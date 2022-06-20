@@ -1,0 +1,316 @@
+html,
+body {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #fc87c1;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+.header-fav {
+  font-size: 50px;
+  text-align: center;
+}
+a {
+  color: #000000;
+}
+.favorites {
+  text-align: inline;
+}
+a:hover {
+  color: #000000;
+}
+
+section {
+  padding-top: 3rem;
+}
+
+.section-1 {
+  background: #ff69b4;
+}
+
+.section-2 {
+  background-color: #fa4ca3;
+}
+
+.section-3 {
+  background-color: #fa3497;
+}
+
+.section-4 {
+  background-color: #fc007e;
+}
+
+a.nav-item {
+  color: #e7e5e5;
+}
+
+a.nav-item:hover {
+  color: #ffffff;
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.intro-description {
+  padding-top: 1rem;
+}
+
+.social-container img {
+  max-width: 100%;
+  max-height: 175px;
+  margin-bottom: 15px;
+}
+
+.project-figure {
+  margin: 0 auto 1rem auto;
+  max-height: 256px;
+  max-width: 256px;
+}
+
+.project-text {
+  text-align: justify;
+}
+.main-footer {
+  font-size: 15px;
+}
+.box {
+  background-color: transparent;
+  border: 2px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.void-background {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    background-color: #063647;
+  }
+
+  .nav-toggle:hover {
+    background-color: transparent;
+  }
+
+  .nav-toggle span {
+    background-color: #dfdfdf;
+  }
+
+  .nav-toggle span:hover {
+    background-color: #fff;
+  }
+}
+.about__content-skills {
+  margin-left: 45rem;
+  text-align: justify;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+.skills__skill {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  background: rgba(90, 88, 88, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: rgb(255, 254, 254);
+  text-align: justify;
+}
+
+.about__content-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.verticalLine {
+  height: 350px;
+  border-right: 1px solid;
+  position: absolute;
+  right: 50%;
+  color: #ffffff;
+}
+.projects {
+  color: white;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .about__content-title {
+    font-size: 2.4rem;
+  }
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.favorites {
+  font-size: 50px;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brand {
+  text-align: center;
+}
+
+.brand span {
+  color: #fff;
+}
+
+.company-info {
+  background: #ff4dbb;
+}
+
+.company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact {
+  background: #ff7ccd;
+}
+
+/* FORM STYLES */
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+}
+
+.contact form .full {
+  grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #ffffff;
+}
+
+.contact form button {
+  background: #ff4dbb;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+  background: #ff009d;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+/* LARGE SCREENS */
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .company-info h3,
+  .company-info ul,
+  .brand {
+    text-align: left;
+  }
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #000000;
+  color: hotpink;
+}
+.success:hover {
+  background-color: #ff7ccd;
+  color: white;
+}
+.btn {
+  border-radius: 5px;
+  padding: 2em;
+  margin: 0 0 8rem 0;
+}
